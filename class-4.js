@@ -32,6 +32,6 @@ var a = myFunction() + 1;
 
 //console.log(a);
 
-var x = 10;
-var y = 5;
+var x = 6;
+var y = 7;
 console.log(x + y);
