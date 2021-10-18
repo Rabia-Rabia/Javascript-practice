@@ -32,6 +32,30 @@ var a = myFunction() + 1;
 
 //console.log(a);
 
-var x = 6;
+/*var x = 6;
 var y = 7;
 console.log(x + y);
+
+var user = ['Haris', 'Saad', 'Ibrahim']
+
+    user.map(
+        function(element){
+            console.log('This is: '+ element);
+        }
+    );*/
+
+   
+
+/*for( var i = 0; i < user.length; i++){
+    console.log('This is : ' + user[i]);  
+}
+
+function myFunction(a,b, myFunc){
+    return myFunc(a, b)
+}
+
+function add(x, y){
+    return x + y;
+}
+
+console.log(myFunction(3, 5, add));*/
