@@ -124,15 +124,111 @@
 //         console.log(x);
 // }
 
-var data= [];
-for(let i = 1; i <= 10; i++){
+// var data= [];
+// for(let i = 1; i <= 10; i++){
 
-    let x =  Math.ceil(Math.random() * 10);
+//     let x =  Math.ceil(Math.random() * 10);
     
-     data.push(x)
-}
-let secondData = data.filter(function(el){
-    return el >= 5;
-});
-    console.log(secondData);
+//      data.push(x)
+// }
+// let secondData = data.filter(function(el){
+//     return el >= 5;
+// });
+//     console.log(secondData);
 
+// swap variables
+
+// let x = 5;
+// let y = 10;
+
+// let temp = x; // 5
+
+// x = y;
+// y = temp;
+//  console.log(x, y);
+
+// Array slice
+
+// let num = [ 4, 5, 6, 19, 20, 21, 30]
+
+// let newNum = num.slice(3, 5);
+
+// console.log(newNum);
+
+// let num = [ 4, 5, 6, 19, 20, 21, 30]
+
+// num.splice(3, 2, 100, 200, 400); // splice
+
+// console.log(num);
+
+
+// let month = [ 'jan', 'march', 'april', 'june', 'july']
+
+// month.splice(1, 0, 'feb'); // splice
+
+// console.log(month);
+
+// es6 arrow function
+//ecma script
+
+// let myFunction = function(nickname){
+//     return 'Rabia ' + nickname;
+
+// }
+//      console.log(myFunction('rabi'));
+
+// let myFunction = (prefix, nickname) => prefix + 'Rabia ' + nickname;
+
+//      console.log(myFunction('Ms.', 'rabi'));
+
+//es6 array push with spread syntax
+
+// let num = [2, 3, 4, 5]
+
+// let newNum = [...num, 6]
+
+// console.log(newNum);
+
+// let user = { 
+//     username: 'Rabia',
+//     age: '5'
+// }
+
+// let newUser = {
+//     ...user, 
+//     email: 'rabia@gmail.com'
+// }
+
+// console.log(newUser);
+
+// ternary operator
+
+// if(5 < 6){
+//     let result = 'yes';
+//     console.log(result);
+// }
+
+// write this in ternary operator it is neccessary to give else value after colon.
+
+// 5 > 6 ? console.log('yes') : console.log('no');
+
+// reduce
+
+// let user = [ 5, 4, 6, 7]
+
+// let newData = user.reduce((x,y) => {
+//     let z = x + y;
+//     return z;
+// }, 0);
+
+// console.log(newData);
+
+
+let user = [ 5, 4, 6, 7]
+
+let newData = user.reduce((pre) => {
+    let total = pre + 1;
+    return total;
+}, 0);
+
+console.log(newData);
