@@ -224,11 +224,11 @@
 // console.log(newData);
 
 
-let user = [ 5, 4, 6, 7]
+// let user = [ 5, 4, 6, 7]
 
-let newData = user.reduce((pre) => {
-    let total = pre + 1;
-    return total;
-}, 0);
+// let newData = user.reduce((pre) => {
+//     let total = pre + 1;
+//     return total;
+// }, 0);
 
-console.log(newData);
+// console.log(newData);
