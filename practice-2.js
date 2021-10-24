@@ -52,14 +52,14 @@ let user = [
 
 // create new array which has username with 18+ age
 
-let username = user.reduce((prev, next) => {
-    if(next.age > 18) {
-        return [...prev, next.username]
-    } else {
-        return prev;
-    }
+// let username = user.reduce((prev, next) => {
+//     if(next.age > 18) {
+//         return [...prev, next.username]
+//     } else {
+//         return prev;
+//     }
 
-}, []);
+// }, []);
 
-console.log(username);
+// console.log(username);
 
